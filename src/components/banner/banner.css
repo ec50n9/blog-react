@@ -1,0 +1,12 @@
+.header {
+    @apply flex justify-center items-center bg-accent bg-fixed;
+    height: 43rem;
+}
+
+.header__title {
+    @apply leading-normal text-center text-8xl text-accent-focus;
+}
+
+.header__role {
+    @apply font-extrabold;
+}

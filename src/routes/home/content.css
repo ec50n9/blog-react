@@ -1,0 +1,14 @@
+.main-container {
+    display: flex;
+    justify-content: center;
+    background-color: #fbfbf1;
+    background-image: linear-gradient(#cbf6fe 2px, transparent 0),
+    linear-gradient(90deg, #cbf6fe 1px, transparent 0);
+    background-size: 1.6rem 1.6rem, 1.6rem 1.6rem;
+    background-position: -.8rem;
+    background-attachment: fixed;
+}
+
+.main-desc{
+    @apply my-32 leading-normal text-center text-5xl font-extrabold text-accent-focus;
+}

@@ -1,0 +1,13 @@
+.nav{
+    @apply fixed top-4 right-4 px-5 py-2 rounded-2xl bg-base-100 shadow
+    transition-all z-10;
+}
+
+.nav-list{
+    @apply flex items-center gap-4;
+}
+
+.nav-list__item{
+    @apply text-base-content text-accent hover:text-accent-focus transition-all hover:font-bold
+    cursor-pointer;
+}
